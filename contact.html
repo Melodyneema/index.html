@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background-color: rgb(64, 110, 161);">
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="logo" src="img/image1.jpg" alt="Logo">
+        </div>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="Contact.html">contact</a></li>
+        </ul>
+      </nav>
+      </header>
+      <main>
+        <section>
+          <h1>Contact Us</h1>
+          <p>Have a question or comment? We'd love to hear from you!</p>
+          <form method="POST" action="submit_form.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <h2>Find Us</h2>
+          <p>please visit our shop and say hi:</p>
+          <ul>
+            <li>Address: 356 Doen Road, Brodys,Nakuru</li>
+            <li>Phone: (+254)741732190</li>
+            <li>Email:info@Delicious house.com </li>
+          </ul>
+          <br><br>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h2 class="logo-text">Pastry Shop</h2>
+            <p>
+              We specialize in delicious pastries that will satisfy your sweet tooth. 
+              Come visit us and indulge in our selection of cakes, cupcakes, and more.
+            </p>
+            <div class="contact">
+              <span><i class="fas fa-phone"></i> &nbsp; (123) 456-7890</span>
+              <span><i class="fas fa-envelope"></i> &nbsp; info@Delicious house.com</span>
+            </div>
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Specials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact-form">
+            <h2><Contact class="html"></Contact></h2>
+            <form action="#" method="post">
+              <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+              <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn-big contact-btn">
+                <i class="fas fa-envelope"></i> Send
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; Delicious House | Designed Tneema
+        </div>
+      </footer>
+      </body>
+</html>
